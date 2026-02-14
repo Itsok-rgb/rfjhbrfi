@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Jaan 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dark starry background -->
+  <div class="stars-bg" id="starsContainer"></div>
+
+  <div class="hearts-bg">
+    <span class="heart-float">❤️</span>
+    <span class="heart-float">💕</span>
+    <span class="heart-float">💗</span>
+    <span class="heart-float">💖</span>
+    <span class="heart-float">❤️</span>
+    <span class="heart-float">💕</span>
+    <span class="heart-float">💗</span>
+    <span class="heart-float">💖</span>
+    <span class="heart-float">❤️</span>
+    <span class="heart-float">💕</span>
+    <span class="heart-float">💗</span>
+    <span class="heart-float">💖</span>
+  </div>
+
+  <span class="corner-heart tl">💕</span>
+  <span class="corner-heart tr">💕</span>
+  <span class="corner-heart bl">💕</span>
+  <span class="corner-heart br">💕</span>
+
+  <div class="container">
+    <h1 class="main-title" id="mainTitle" title="Click me!">For My Jaan 💕</h1>
+    <p class="subtitle">Happy Valentine's Day!</p>
+
+    <div class="typing-container">
+      <span class="typing-text" id="typed"></span><span class="cursor" id="cursor">|</span>
+    </div>
+
+    <div class="btn-group">
+      <button class="btn btn-accept" id="btnAccept">Accept My Love ❤️</button>
+      <button class="btn btn-letter" id="btnLetter">📩 Open Love Letter</button>
+      <button class="btn btn-404" id="btn404">🔍 Secret Button</button>
+    </div>
+    <p class="hint-text" id="hintText">Psst... try the secret button! 👀</p>
+  </div>
+
+  <!-- Love Letter Modal -->
+  <div class="modal-overlay" id="letterModal">
+    <div class="modal-content">
+      <button class="modal-close" id="closeLetter">&times;</button>
+      <h3>💌 For Jaan, My Love</h3>
+      <div class="letter-text">
+        My dearest Jaan,<br><br>
+        From the moment you came into my life, every day feels like a blessing. Your smile lights up my world, and your presence fills my heart with joy that I never knew was possible.<br><br>
+        You are my best friend, my confidant, and the love of my life. With you, I've found a home in a person. This Valentine's Day, I want you to know that you are loved beyond words, cherished beyond measure, and you mean everything to me.<br><br>
+        Forever yours, with all my heart 💕
+      </div>
+    </div>
+  </div>
+
+  <!-- 404 Modal -->
+  <div class="modal-overlay modal-404" id="modal404">
+    <div class="modal-content">
+      <button class="modal-close" id="close404">&times;</button>
+      <h3 class="error-title">Error 404</h3>
+      <p class="error-msg">Life without you not found 💔❤️</p>
+      <p class="modal-footer">(You're stuck with me, Jaan! 😊)</p>
+    </div>
+  </div>
+
+  <!-- Success overlay -->
+  <div class="success-message" id="successMsg">
+    <h2>Thank you, Jaan! 💕</h2>
+    <p>You just made my heart skip a beat!</p>
+    <div class="hearts-burst">❤️💕❤️💕❤️</div>
+  </div>
+
+  <p class="surprise-msg" id="surpriseMsg">You're the best thing that ever happened to me, Jaan ✨</p>
+
+  <div class="confetti-container" id="confettiContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
